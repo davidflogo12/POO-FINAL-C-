@@ -15,11 +15,14 @@
 
 class Alumno : virtual public Persona{
 private:
+    //Atributos
     std::string matricula, gene;
     Horario horario;
     Materia materias[6] = {};
 public:
+    //Constructor
     Alumno();
+    //Metodos
     Alumno(std::string &mat, std::string &gen, char &c, std::string &b, std::string &a);
     Materia*materia;
 
