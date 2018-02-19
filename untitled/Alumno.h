@@ -12,7 +12,7 @@
 #include <iostream>
 #include <string>
 #include <array>
-
+//La clase alumno con herencia de la clase persona
 class Alumno : virtual public Persona{
 private:
     //Atributos
